@@ -60,7 +60,7 @@ add_image_size( 'pages', 720, 300, true );
 function login_logo() { ?>
     <style type="text/css">
         body {
-          background: #3AA39F !important;
+          background: #CC0000 !important;
         }
         .login form {
           background-color: #d9f9f8 !important;
@@ -74,7 +74,7 @@ function login_logo() { ?>
           background: #3aa39f !important;
         }
         #login h1 a, .login h1 a {
-          background-image: url(<?php bloginfo('template_url');?>/images/logo.png);
+          background-image: url(<?php bloginfo('template_url');?>/images/logo.jpg);
           width: 100%;
           background-size: 40%;
           height: 160px;

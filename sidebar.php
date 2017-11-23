@@ -4,9 +4,7 @@
  
  <div id="nav">
   <ul>
-   <li><a href="http://evangeliststevehart.com/"><i class="fa fa-chevron-circle-right"></i>Itinerary</a></li>
-   <li><a href="bio.html"><i class="fa fa-chevron-circle-right"></i>Bio</a></li>
-   <li><a href="beliefs.html"><i class="fa fa-chevron-circle-right"></i>Beliefs</a></li>
+      <?php wp_nav_menu( array('menu' => 'Main Nav', 'theme_location' => 'main-menu', 'items_wrap' => '%3$s', 'container' => 'false'  )); ?>
   </ul>
  </div>
  
