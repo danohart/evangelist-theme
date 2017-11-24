@@ -10,7 +10,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   background: url("images/background-dark.jpg") left top fixed #c0392b;
   color: #414141; }
@@ -57,7 +57,8 @@ header {
 
 #nav ul {
   list-style: none;
-  padding-left: 10px; }
+  padding: 0px;
+  margin: 0px 0px 10px 0px; }
   #nav ul li {
     font-size: 1.2em;
     border-bottom: 1px solid #DADADA; }
@@ -65,6 +66,10 @@ header {
       text-decoration: none;
       color: #414141;
       font-weight: 300; }
+      #nav ul li a:before {
+        font-family: 'FontAwesome';
+        content: '\f138';
+        padding-right: 6px; }
 
 #left-col {
   width: 240px;

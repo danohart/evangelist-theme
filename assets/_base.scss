@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $primary-font;
   font-weight: 600;
   background: url('images/background-dark.jpg') left top fixed #c0392b;
   color:#414141;
@@ -60,7 +60,8 @@ header {
 
 #nav ul {
   list-style: none;
-  padding-left:10px;
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
 
   li {
     font-size: 1.2em;
@@ -70,6 +71,12 @@ header {
       text-decoration: none; 
       color:#414141;
       font-weight: 300;
+
+      &:before {
+        font-family: 'FontAwesome';
+        content: '\f138';
+        padding-right: 6px;
+      }
     }
   }
 }
