@@ -6,8 +6,8 @@
     'id' => 'right-sidebar',
     'before_widget' => '',
     'after_widget' => '',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
    ));
 
 function post_thumbnail_feeds($content) {
