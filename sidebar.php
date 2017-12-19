@@ -20,12 +20,36 @@
 	</div>
 
 	<br/>
+	<!-- PayPal Donate Button -->
+	<div align="center">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+		    <!-- Identify your business so that you can collect the payments. -->
+		    <input type="hidden" name="business"
+		        value="broshart@gmail.com">
+
+		    <!-- Specify a Donate button. -->
+		    <input type="hidden" name="cmd" value="_donations">
+
+		    <!-- Specify details about the contribution -->
+		    <input type="hidden" name="item_name" value="Evangelist Steve Hart">
+		    <input type="hidden" name="item_number" value="Individual Support">
+		    <input type="hidden" name="currency_code" value="USD">
+
+		    <!-- Display the payment button. -->
+		    <input type="image" name="submit"
+		    src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png"
+		    alt="Donate">
+		    <img alt="" width="1" height="1"
+		    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+		</form>
+	</div>
 
 	<div class="contact-info">
-		Support Address: <br/>c/o First Baptist Church<br/>220 Illini Dr.<br/>Clinton, IL 61727
+		<?php dynamic_sidebar( 'right-sidebar' ); ?>
 	</div>
 
 	<div class="clearfix"></div>
-	
-	<p>Steve Hart is available for Revival meetings, Camp Meetings, Bible Conferences, Youth Camps, Special Sundays, etc...</p>
+
 </div>

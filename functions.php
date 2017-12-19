@@ -10,16 +10,6 @@
     'after_title' => '</h2>',
    ));
 
- if ( function_exists('register_sidebar') )
-   register_sidebar(array(
-    'name' => 'Footer',
-    'id' => 'footer',
-    'before_widget' => '',
-    'after_widget' => '',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>',
-   ));
-
 function post_thumbnail_feeds($content) {
 
 	global $post;
@@ -60,10 +50,10 @@ add_image_size( 'pages', 720, 300, true );
 function login_logo() { ?>
     <style type="text/css">
         body {
-          background: #CC0000 !important;
+          background: #340406 !important;
         }
         .login form {
-          background-color: #d9f9f8 !important;
+          background-color: #520209 !important;
           box-shadow: none !important;
         }
         .login #backtoblog a, .login #nav a {
