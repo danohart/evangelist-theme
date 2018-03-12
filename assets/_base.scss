@@ -93,7 +93,16 @@ header {
   }
 }
 
-#right-col {width:500px;float: right; background: #FFF;}
+#right-col {
+  width:500px;
+  float: right; 
+  background: #FFF;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
 
 i.fa {
 padding: 0px 3px;
